@@ -1,0 +1,44 @@
+	#topbar {
+ 	background: #3c3c3c;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	z-index: 999;
+	box-shadow:0px 2px 11px #888888;
+ 	}
+ 	
+ 	#title { 
+ 	float: left;
+	margin-top: 5px;
+	margin-left:25px;
+ 	}
+ 	
+ 	#PBTlogo { 
+    float: left;
+    margin-right: 10px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    padding-right: 10px;
+    border-right-color: #6C6C6C;
+ 	}
+ 	
+ 	#title h1 {
+    float: left;
+    color: #F2F2F2;
+    margin: 0px;
+    /*font-family: futura, open sans, verdana, sans-serif;*/
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+ 	}
+ 	
+ 	#sponsors {	
+    float: right;
+    margin-top: 10px;
+    margin-right:25px;
+ 	}
+ 	
+ 	#NETlogo {
+    margin-right: 20px;
+ 	}
+ 	

@@ -1,0 +1,222 @@
+body {
+	margin: 0 auto;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1260px;
+}
+
+header {
+ 	text-align: right;
+ 	border-bottom: 1px solid lightgray;
+}
+
+footer {
+	margin-bottom: -30px;	
+}
+
+.credit h5 {
+	color: #999999;
+	font-weight: 200;
+}
+
+.credit {
+	text-align: left;
+	position: relative;
+	top: 60px;
+}
+
+.interactive {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+#year-sel {
+	float: left;
+	font-size: 12px;
+	padding: 20px 22px 0px 60px;
+	margin: 0px 0px;
+}
+
+#year-sel p {
+	margin: 1px;
+}
+
+#heading-buttons {
+	float: right;
+}
+
+.interactive-btns {
+	position: relative;
+	top: 110px;
+}
+
+.interactive-years {
+	position: relative;
+	top: 96px;
+}
+
+.interactive-years p {
+	margin-bottom: 3px;
+}
+
+.btn:focus{
+    outline: none !important;
+}
+
+.instr-note-sm {
+	font-size: 11px;
+	font-style: italic;	
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 32px;
+}
+
+h2 {
+	font-weight: 200;
+}
+
+h3 {
+	font-weight: 300;
+}
+
+h4 {
+	font-weight: 300;
+}
+
+.map h4 {
+	position: relative;
+	top: 45px;
+	left: 10px;
+}
+
+.caption {
+	padding: 10px;
+	/*color: white;*/
+	font-size: 12px;
+}
+
+.carousel-description {
+	padding: 10px;
+	background-color: lightgray;
+	font-size: 12px;
+}
+
+.flow-rates-interactive {
+	margin: 30px 0 0 0;
+}
+
+#platte_graph_container {
+	font: 10px sans-serif;
+}
+
+#platte_graph_container svg {
+	height: 500px;
+}
+
+svg text {
+	font: 12px sans-serif;
+}
+
+.nv-axislabel {
+	font-size: 13px;
+}
+
+footer {
+	text-align: left;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 5px;
+	position: relative;
+	left: 50px;
+	top: -22px;
+}
+
+.pop-btn {
+	font-size: 12px;
+	padding: 6px 14px;
+	margin: 0px 10px;
+}
+
+.btn-text {
+	font-size: 13px;
+}
+
+circle:hover {
+	/*fill: steelblue;*/
+	opacity: .2;
+    -webkit-transition: all .15s ease-in-out;
+       -moz-transition: all .15s ease-in-out;
+    	-ms-transition: all .15s ease-in-out;
+    	 -o-transition: all .15s ease-in-out;
+    	    transition: all .15s ease-in-out;
+}
+
+.map-tooltip {
+	position: absolute;
+	width: 200px;
+	height: auto;
+	padding: 10px;
+	z-index: 1;
+	background-color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+}
+
+.tooltip.hidden {
+	display: none;
+}
+
+.map-tooltip p {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.stateline {
+	color: #d73027;
+}
+
+.roscoe {
+	color: #f46d43;
+}
+
+.overton {
+	color: #fdae61;
+}
+
+.kearney {
+	color: #fee090;
+}
+
+.grandisland {
+	color: #f0f0bf;
+}
+
+.dunning {
+	color: #e0e6ca;
+}
+
+.saintpaul {
+	color: #abd9e9;
+}
+
+.northbend {
+	color: #74add1;
+}
+
+.louisville {
+	color: #4575b4;
+}
