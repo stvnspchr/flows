@@ -29,4 +29,4 @@ for row in reader:
 # print str(m) + '/' + str(d) + " file closed"
 # file.close()
 			
-print ".... done!!"
+print ".... done!"
