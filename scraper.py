@@ -7,9 +7,9 @@ import os
 # Open webpage and read data
 url = 'http://waterdata.usgs.gov/ne/nwis/dv?cb_00060=on&format=rdb&period=&begin_date=2013-01-01&end_date=2013-12-31&site_no=06768000&referred_module=sw'
 page = urllib2.urlopen(url)
-reader = csv.reader(page)
+reader = csv.reader(page, dialect='excel-tab')
 
-for row in reader
+for row in reader:
 	print row
 
 # Check for subdirectory and/or make subdirectory
