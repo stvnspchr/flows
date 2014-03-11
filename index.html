@@ -16,7 +16,6 @@
 	<script src="js/carousel.js"></script>
     
     <script src="js/buildGraph.js"></script>
-	<script src="js/buildData.js"></script>
 	<script src="js/mapTooltip.js"></script>
     
     <script src="nvd3/lib/d3.v3.js"></script>
@@ -12192,26 +12191,26 @@ $(document).ready(function () {
 <script> 
 	$(document).ready(function() {
 	 	$( "#sel-all" ).addClass("active");
-	 	buildGraph(testAll);
+	 	buildGraph('all-data');
 	});
  
 	function toggle2011() {
 		$( "#sel-all" ).removeClass("active");
-		reBuildGraph(d2011);
+		reBuildGraph('2011-data');
 	}
  
 	function toggle2012() {
 		$( "#sel-all" ).removeClass("active");
-		reBuildGraph(d2012);
+		reBuildGraph('2012-data');
 	}
  
 	function toggle2013() {
 		$( "#sel-all" ).removeClass("active");
-		reBuildGraph(d2013);
+		reBuildGraph('2013-data');
 	}
 	
 	function toggleAll() {
-		reBuildGraph(testAll);
+		reBuildGraph('all-data');
 	}
 </script>
 
