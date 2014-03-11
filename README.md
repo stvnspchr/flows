@@ -7,9 +7,9 @@ This interactive graphic was created as part of the [Platte Basin Timelapse](htt
 
 Developed and designed by Steven Speicher
 
-Uses
-
+The web interactive uses
 * HTML/CSS
+* [Bootstrap] (http://getbootstrap.com/)
 * jQuery
 * [d3.js] (http://d3js.org/)
 * [nv.d3.js] (http://nvd3.org/)
