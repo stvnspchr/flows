@@ -1,10 +1,11 @@
 # Flows in the Platte River
 =====
 
-This interactive graphic was created as part of the [Platte Basin Timelapse](www.plattebasintimelapse.com) project. Visit the website for more info.
+This interactive graphic was created as part of the [Platte Basin Timelapse](http://www.plattebasintimelapse.com) project. Visit the website for more info.
 
 ## About this interactive
 Developed and designed by Steven Speicher
+
 Uses
 * HTML/CSS
 * jQuery
