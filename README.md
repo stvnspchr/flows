@@ -3,10 +3,12 @@
 
 This interactive graphic was created as part of the [Platte Basin Timelapse](http://www.plattebasintimelapse.com) project. Visit the website for more info.
 
-## About this interactive
+## About
+
 Developed and designed by Steven Speicher
 
 Uses
+
 * HTML/CSS
 * jQuery
 * [d3.js] (http://d3js.org/)
