@@ -3,7 +3,7 @@ Flows in the Platte River
 An interactive graphic that visualizes flow rates on the Platte River in Nebraska.
 
 1. [About](#about)
-2. [The Implementation](#the-implementation)
+2. [Implementation](#implementation)
 3. [The Story](#the-story)
 4. [The Future](#the-future)
 
