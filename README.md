@@ -1,10 +1,13 @@
 Flows in the Platte River
 =====
-This interactive graphic was created as part of the [Platte Basin Timelapse](http://www.plattebasintimelapse.com) project. Visit the website for more info.
+An interactive graphic that visualizes flow rates on the Platte River in Nebraska.
 
 ## About
-Developed and designed by Steven Speicher
+The Platte River system flows through Nebraska in four segments: the North Platte River, the South Platte River, the Platte River proper, and the Loup Rivers. At various places along the river's journey, the United States Geological Survey, [USGS](http://usgs.gov), has gauging stations where a variety of river parameters are measured. Discharge, or simply the flow rate, is perhaps the most indicative of the current state of the stream. Measured in cubic feet per second, flow rates can tell us how much water is in the river at any given time.
 
+Developed and designed by Steven Speicher as part of the Platte Basin Timelapse project: a partnership with the University of Nebraska's [Institute of Natural Resources](http://ianrhome.unl.edu/), [Nebraska Educational Telecommunications](http://netnebraska.org/), and [many other local and state organizations](http://plattebasintimelapse.com/supporters).
+
+## Implementation
 This web interactive uses:
 * HTML/CSS
 * [Bootstrap] (http://getbootstrap.com/)
@@ -12,9 +15,6 @@ This web interactive uses:
 * [d3.js] (http://d3js.org/)
 * [nv.d3.js] (http://nvd3.org/)
 
-The Platte River system flows through Nebraska in four segments: the North Platte River, the South Platte River, the Platte River proper, and the Loup Rivers. At various places along the river's journey, the United States Geological Survey, [USGS](http://usgs.gov), has gauging stations where a variety of river parameters are measured. Discharge, or simply the flow rate, is perhaps the most indicative of the current state of the stream. Measured in cubic feet per second, flow rates can tell us how much water is in the river at any given time.
-
-## Implementation
 In order to better visualize and 'see' the river, USGS data is scraped from their web logs, parsed into JSON formats, and read into d3. The nv.ds.js reusable library of visualizations tools is used to create a stacked area graph, streamgraph, and proportions graph.
 
 The chart is rendered onto a web page formatted in Twitter's Bootstrap. The page also includes an SVG showing geographic location of the river and gauging stations and a set of images from the Platte Basin Timelapse project's image dataset. 
