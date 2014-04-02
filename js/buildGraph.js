@@ -1,16 +1,20 @@
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
+
 var chart;
 	
 function buildGraph(fileName) {
 	var colors = d3.scale.category20c();
 	keyColor = function(d, i) {return colors(d.key)};
 
-	myColors = ['rgb(215,48,39)','rgb(244,109,67)','rgb(253,174,97)','rgb(254,224,144)','rgb(240,240,191)','rgb(224,230,202)','rgb(171,217,233)','rgb(116,173,209)','rgb(69,117,180)'];
+	var myColors = ['rgb(215,48,39)','rgb(244,109,67)','rgb(253,174,97)','rgb(254,224,144)','rgb(240,240,191)','rgb(224,230,202)','rgb(171,217,233)','rgb(116,173,209)','rgb(69,117,180)'];
 
  	d3.json('data/' + fileName + '.json', function(error, data) {
 		nv.addGraph(function() {
 			chart = nv.models.stackedAreaChart()
 					.x(function(d) { return d[0] })
 					.y(function(d) { return d[1] })
+                    .yDomain([0,93000])
 					.color(myColors)
 					.showControls(true)
 					.tooltipContent(false)
@@ -49,4 +53,4 @@ function reBuildGraph(fileName) {
 			nv.utils.windowResize(chart.update);
 		});
 	});
-}
+};
