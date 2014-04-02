@@ -21,7 +21,7 @@ for i in range(0,len(s)):
 		os.makedirs(path)
 	
 	# Create file and write data
-	f_name = "sample-data-" + s_names[i] + ".tsv"
+	f_name = b_d + "-to-" + e_d + "-at-" + s_names[i] + ".tsv"
 	f = open(os.path.join(path, f_name), "wb")
 	writer = csv.writer(f, delimiter='\t')
 	
