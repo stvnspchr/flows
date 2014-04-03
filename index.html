@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+
 <head>
     <title>Platte River Flows</title>
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="nvd3/nv.d3.css" type="text/css">
+    <link rel="stylesheet" href="js/nvd3/nv.d3.css" type="text/css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="topbar/topbar.css" />
+    <link rel="stylesheet" href="css/topbar/topbar.css" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
 
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/button.js"></script>
@@ -17,8 +19,8 @@
     <script src="js/buildGraph.js"></script>
     <script src="js/mapTooltip.js"></script>
 
-    <script src="nvd3/lib/d3.v3.js"></script>
-    <script src="nvd3/nv.d3.min.js"></script>
+    <script src="js/nvd3/lib/d3.v3.js"></script>
+    <script src="js/nvd3/nv.d3.min.js"></script>
 </head>
 
 <body>
@@ -29,7 +31,7 @@
         <div id="topcontainer" style="max-width:1260px;margin-right:auto;margin-left:auto;">
             <div id="title">
                 <a href="http://www.plattebasintimelapse.org" id="PBTlogo">
-                    <img src="topbar/PBTlogo.png">
+                    <img src="css/topbar/PBTlogo.png">
                 </a>
                 <h1>Flows in the Platte</h1>
             </div>
@@ -115,57 +117,39 @@
                 <h4>Locations of Gauging Stations:</h4>
 
                 <div id="stateline-tooltip" class="hidden map-tooltip">
-                    <p>
-                        <strong>State Line Gauge</strong>
-                    </p>
+                    <p>State Line Gauge</p>
                     <p>on the North Platte River</p>
                 </div>
                 <div id="roscoe-tooltip" class="hidden map-tooltip">
-                    <p>
-                        <strong>Roscoe NE</strong>
-                    </p>
+                    <p>Roscoe NE</p>
                     <p>on the South Platte River</p>
                 </div>
                 <div id="overton-tooltip" class="hidden map-tooltip">
-                    <p>
-                        <strong>Overton NE</strong>
-                    </p>
+                    <p>Overton NE</p>
                     <p>on the Platte River</p>
                 </div>
                 <div id="kearney-tooltip" class="hidden map-tooltip">
-                    <p>
-                        <strong>Kearney NE</strong>
-                    </p>
+                    <p>Kearney NE</p>
                     <p>on the Platte River</p>
                 </div>
                 <div id="grandisland-tooltip" class="hidden map-tooltip">
-                    <p>
-                        <strong>Grand Island NE</strong>
-                    </p>
+                    <p>Grand Island NE</p>
                     <p>on the Platte River</p>
                 </div>
                 <div id="dunning-tooltip" class="hidden map-tooltip">
-                    <p>
-                        <strong>Dunning NE</strong>
-                    </p>
+                    <p>Dunning NE</p>
                     <p>on the Middle Loup River</p>
                 </div>
                 <div id="saintpaul-tooltip" class="hidden map-tooltip">
-                    <p>
-                        <strong>Saint Paul NE</strong>
-                    </p>
+                    <p>Saint Paul NE</p>
                     <p>on the Middle Loup River</p>
                 </div>
                 <div id="northbend-tooltip" class="hidden map-tooltip">
-                    <p>
-                        <strong>North Bend NE</strong>
-                    </p>
+                    <p>North Bend NE</p>
                     <p>on the Platte River</p>
                 </div>
                 <div id="louisville-tooltip" class="hidden map-tooltip">
-                    <p>
-                        <strong>Louisville NE</strong>
-                    </p>
+                    <p>Louisville NE</p>
                     <p>on the Platte River</p>
                 </div>
 
@@ -12106,15 +12090,15 @@
 						l-3.115-1.384l-1.038-1.385" />
                     </g>
                     <g id="stations" opacity="0.8">
-                        <circle id="stateline" opacity="0.9" fill="#D73027" stroke="#7A7474" stroke-miterlimit="10" cx="317.5" cy="348.75" r="12.5" />
-                        <circle id="roscoe" opacity="0.9" fill="#F46D43" stroke="#7A7474" stroke-miterlimit="10" cx="475.5" cy="421.75" r="12.5" />
-                        <circle id="overton" opacity="0.9" fill="#FDAE61" stroke="#7A7474" stroke-miterlimit="10" cx="618" cy="459.75" r="12.5" />
-                        <circle id="kearney" opacity="0.9" fill="#FEE090" stroke="#7A7474" stroke-miterlimit="10" cx="649.5" cy="461.75" r="12.5" />
-                        <circle id="grandisland" opacity="0.9" fill="#F0F0BF" stroke="#7A7474" stroke-miterlimit="10" cx="683" cy="449.25" r="12.5" />
-                        <circle id="dunning" opacity="0.9" fill="#E0E6CA" stroke="#7A7474" stroke-miterlimit="10" cx="587" cy="364.25" r="12.5" />
-                        <circle id="louisville" opacity="0.9" fill="#4575B4" stroke="#7A7474" stroke-miterlimit="10" cx="836.5" cy="427.75" r="12.5" />
-                        <circle id="northbend" opacity="0.9" fill="#74ADD1" stroke="#7A7474" stroke-miterlimit="10" cx="791.5" cy="393.25" r="12.5" />
-                        <circle id="saintpaul" opacity="0.9" fill="#ABD9E9" stroke="#7A7474" stroke-miterlimit="10" cx="682" cy="414.75" r="12.5" />
+                        <circle id="stateline" opacity="0.9" fill="#543005" stroke="#7A7474" stroke-miterlimit="10" cx="317.5" cy="348.75" r="12.5" />
+                        <circle id="roscoe" opacity="0.9" fill="#8c510a" stroke="#7A7474" stroke-miterlimit="10" cx="475.5" cy="421.75" r="12.5" />
+                        <circle id="overton" opacity="0.9" fill="#bf812d" stroke="#7A7474" stroke-miterlimit="10" cx="618" cy="459.75" r="12.5" />
+                        <circle id="kearney" opacity="0.9" fill="#dfc27d" stroke="#7A7474" stroke-miterlimit="10" cx="649.5" cy="461.75" r="12.5" />
+                        <circle id="grandisland" opacity="0.9" fill="#f6e8c3" stroke="#7A7474" stroke-miterlimit="10" cx="683" cy="449.25" r="12.5" />
+                        <circle id="dunning" opacity="0.9" fill="#c7eae5" stroke="#7A7474" stroke-miterlimit="10" cx="587" cy="364.25" r="12.5" />
+                        <circle id="saintpaul" opacity="0.9" fill="#80cdc1" stroke="#7A7474" stroke-miterlimit="10" cx="682" cy="414.75" r="12.5" />
+                        <circle id="northbend" opacity="0.9" fill="#35978f" stroke="#7A7474" stroke-miterlimit="10" cx="791.5" cy="393.25" r="12.5" />
+                        <circle id="louisville" opacity="0.9" fill="#01665e" stroke="#7A7474" stroke-miterlimit="10" cx="836.5" cy="427.75" r="12.5" />
                     </g>
 
                 </svg>
@@ -12125,7 +12109,7 @@
                 <h3>Three Years of Extremes on the Platte</h3>
                 <p>When our team set up the first few timelapse cameras in the central Platte valley at the head of 2011, we thought we would be lucky to capture a few abnormally wet and dry years over the next decade. To our surprise, we recorded a wet and dry year back to back. 2013 proved to be another exceptional year.</p>
                 <p>
-                    <b>CFS</b> is the measurement by which water flow is measured. It means cubic feet per second, a measure of volume per time. 200 cfs would mean that 200 cubic feet of water is passing a given point every second.</p>
+                    <b>CFS</b>is the measurement by which water flow is measured. It means cubic feet per second, a measure of volume per time. 200 cfs would mean that 200 cubic feet of water is passing a given point every second.</p>
                 <p>A good rule of thumb to help visualize cubic feet per second is to think of one cfs as a basketball. Imagine 500 basketballs rolling past your feet in one second; that is 500 cfs. Each stream looks different at the same cfs. For a small creek, 500 cfs would seem like a raging river. For a larger, wider river, 500 cfs would seem like a trickle.</p>
             </div>
         </div>
@@ -12201,7 +12185,7 @@
         <script>
             $(document).ready(function() {
                 $("#sel-all").addClass("active");
-                buildGraph('all-data');
+                buildGraph('test');
             });
 
             function toggle2011() {

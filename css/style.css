@@ -1,5 +1,6 @@
 body {
 	margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -50,12 +51,12 @@ footer {
 
 .interactive-btns {
 	position: relative;
-	top: 110px;
+	top: 90px;
 }
 
 .interactive-years {
 	position: relative;
-	top: 96px;
+	top: 76px;
 }
 
 .interactive-years p {
@@ -73,9 +74,13 @@ footer {
 	margin-bottom: 2px;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
 h1 {
 	font-weight: 100;
-	font-size: 32px;
+	font-size: 36px;
 }
 
 h2 {
@@ -98,7 +103,6 @@ h4 {
 
 .caption {
 	padding: 10px;
-	/*color: white;*/
 	font-size: 12px;
 }
 
@@ -108,9 +112,11 @@ h4 {
 	font-size: 12px;
 }
 
+/*
 .flow-rates-interactive {
 	margin: 30px 0 0 0;
 }
+*/
 
 #platte_graph_container {
 	font: 10px sans-serif;
@@ -149,7 +155,6 @@ footer {
 }
 
 circle:hover {
-	/*fill: steelblue;*/
 	opacity: .2;
     -webkit-transition: all .15s ease-in-out;
        -moz-transition: all .15s ease-in-out;
@@ -160,17 +165,18 @@ circle:hover {
 
 .map-tooltip {
 	position: absolute;
-	width: 200px;
+	width: 190px;
 	height: auto;
+    overflow: auto;
 	padding: 10px;
 	z-index: 1;
 	background-color: white;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
 	pointer-events: none;
 }
 
@@ -180,43 +186,11 @@ circle:hover {
 
 .map-tooltip p {
 	margin: 0;
-	font-family: sans-serif;
-	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
 	line-height: 20px;
 }
 
-.stateline {
-	color: #d73027;
-}
-
-.roscoe {
-	color: #f46d43;
-}
-
-.overton {
-	color: #fdae61;
-}
-
-.kearney {
-	color: #fee090;
-}
-
-.grandisland {
-	color: #f0f0bf;
-}
-
-.dunning {
-	color: #e0e6ca;
-}
-
-.saintpaul {
-	color: #abd9e9;
-}
-
-.northbend {
-	color: #74add1;
-}
-
-.louisville {
-	color: #4575b4;
+.map-tooltip p:first-child {
+    font-size: 16px;
 }
